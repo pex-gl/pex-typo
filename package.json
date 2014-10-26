@@ -17,7 +17,9 @@
   "main": "index.js",
   "devDependencies": {
   },
-  "dependencies": {
+  "peerDependencies": {
+    "pex-glu": "0.x",
+    "pex-color": "0.x"
   },
   "repository": {
     "type": "git",
