@@ -1,6 +1,6 @@
 {
   "name": "pex-typo",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Typographics utilities for the pex library",
   "homepage": "https://github.com/vorg/pex-typo.git",
   "keywords": [
@@ -18,8 +18,7 @@
   "dependencies": {
     "merge": "*"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "pex-glu": "0.x",
     "pex-color": "0.x",
