@@ -1,8 +1,8 @@
 {
   "name": "pex-typo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Typographics utilities for the pex library",
-  "homepage": "https://github.com/vorg/pex-typo",
+  "homepage": "https://github.com/vorg/pex-typo.git",
   "keywords": [
     "geometry",
     "typography",
@@ -15,17 +15,21 @@
     "url": "http://marcinignac.com"
   },
   "main": "index.js",
+  "dependencies": {
+    "merge": "*"
+  },
   "devDependencies": {
   },
   "peerDependencies": {
     "pex-glu": "0.x",
-    "pex-color": "0.x"
+    "pex-color": "0.x",
+    "pex-gen": "0.x",
+    "pex-geom": "0.x"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/vorg/pex-typo.git"
   },
   "bugs": "https://github.com/vorg/pex-typo/issues",
-  "homepage": "https://github.com/vorg/pex-typo.git",
   "license": "MIT"
 }
